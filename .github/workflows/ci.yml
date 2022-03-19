@@ -21,13 +21,25 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+        
+      - name: Caching Gatsby
+        id: gatsby-cache-build
+        uses: actions/cache@v2
+        with:
+          path: |
+            public
+            .cache
+          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-build-
+            
       - name: Run the tests and generate coverage report
         run: npm test -- --coverage
 
       - name: Deploy
         run: |
           pwd
+          ls
           git config --global user.email "andresivan.aldama@gmail.com"
           git config --global user.name "darkh0le"
           npm run deploy
