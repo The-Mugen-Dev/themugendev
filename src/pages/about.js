@@ -3,9 +3,8 @@ import Link from "gatsby-link";
 
 export default function IndexPage() {
     return (
-        <main>
-            <Link to="/about">About</Link>
-            Gatsby Site 2
+        <main>About Page
+            <Link to="/">The Mugen Dev</Link>
         </main>
-    );
+    )
 }
