@@ -25,11 +25,9 @@ jobs:
       - name: Run the tests and generate coverage report
         run: npm test -- --coverage
 
-      - name: Build
-        run: npm run build
-
       - name: Deploy
         run: |
+          pwd
           git config --global user.email "andresivan.aldama@gmail.com"
           git config --global user.name "darkh0le"
           npm run deploy
