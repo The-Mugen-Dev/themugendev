@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkthemugendev=self.webpackChunkthemugendev||[]).push([[682],{465:function(e,n,t){t.r(n),t.d(n,{default:function(){return r}});var u=t(294),a=t(37);function r(){return u.createElement("main",null,"About Page",u.createElement(a.default,{to:"/"},"The Mugen Dev"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-be29dfb87f5bb528d107.js.map

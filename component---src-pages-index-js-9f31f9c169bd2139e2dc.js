@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkthemugendev=self.webpackChunkthemugendev||[]).push([[678],{558:function(e,t,n){n.r(t),n.d(t,{default:function(){return r}});var u=n(294),a=n(37);function r(){return u.createElement("main",null,u.createElement(a.default,{to:"/about"},"About"),u.createElement(a.default,{to:"/broken-link"},"broken"),"Gatsby Site 2")}}}]);
+//# sourceMappingURL=component---src-pages-index-js-9f31f9c169bd2139e2dc.js.map

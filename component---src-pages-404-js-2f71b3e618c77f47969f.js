@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkthemugendev=self.webpackChunkthemugendev||[]).push([[883],{429:function(e,n,t){t.r(n),t.d(n,{default:function(){return r}});var u=t(294),a=t(37);function r(){return u.createElement("main",null,"Not Found Page: HTTP Code: 404",u.createElement(a.default,{to:"/"},"The Mugen Dev"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-2f71b3e618c77f47969f.js.map
