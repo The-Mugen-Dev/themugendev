@@ -37,10 +37,10 @@ jobs:
 
       - name: Deploy
         run: |
-          git config user.email
-          git config user.name
           git config --global user.email "andresivan.aldama@gmail.com"
           git config --global user.name "darkh0le"
+          git config user.email
+          git config user.name
           npm run deploy
         env:
           GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
